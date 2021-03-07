@@ -12,7 +12,7 @@ ASG distributes the EC2 instances across multiple availability zones
 After deploying the `ASG` you'll have several different servers, each with its own IP address, but you need to give your end users only a single IP to hit, and for this we're going to deploy a load balancer to distribute traffic across your servers and to give your end users a single DNS name which is the the load balancer DNS name
 
 ### Note
-I have deployed the resources in ap-south-1(Mumbai) region.If you want to deploy it in a different region, please update the region and availability zone variables in vars.tf file.
+I have deployed the resources in `ap-south-1(Mumbai)` region.If you want to deploy it in a different region, please update the `region` and `availability zone` variables in vars.tf file.
 
 # Usage
 
